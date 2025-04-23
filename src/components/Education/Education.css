@@ -1,0 +1,67 @@
+/* Education.css */
+.education-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+  }
+  
+  .education-card {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .education-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .education-icon {
+    padding: 1rem;
+    background-color: #667eea;
+    color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+  }
+  
+  .education-details {
+    flex: 1;
+  }
+  
+  .education-details h2 {
+    margin: 0;
+    color: #333;
+    font-size: 1.3rem;
+  }
+  
+  .degree {
+    color: #667eea;
+    margin: 0.5rem 0;
+    font-weight: 500;
+  }
+  
+  .period {
+    color: #64748b;
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 768px) {
+    .education-card {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .education-icon {
+      margin: 0 auto 1rem auto;
+    }
+  }
