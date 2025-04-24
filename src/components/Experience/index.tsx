@@ -56,16 +56,6 @@ function Experience() {
 
   return (
     <div className="experience-page">
-      <header className="experience-header">
-        <div className="header-content">
-          <h1>Professional Experience</h1>
-          <Link to="/" className="back-button">
-            <span className="back-icon">←</span>
-            <span>Home</span>
-          </Link>
-        </div>
-      </header>
-      
       <div className="timeline-container">
         <div className="timeline-line"></div>
         

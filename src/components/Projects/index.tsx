@@ -50,15 +50,6 @@ function Projects() {
 
   return (
     <div className="projects-page">
-      <header className="projects-header">
-        <div className="header-content">
-          <h1>My Projects</h1>
-          <Link to="/" className="back-button">
-            <span className="back-icon">←</span>
-            Back to Home
-          </Link>
-        </div>
-      </header>
 
       <div className="projects-grid">
         {projects.map(project => (
