@@ -32,7 +32,7 @@ function Home({ scrolled }) {
         <div className="profile-container">
           {/* Replace with your actual image URL */}
           <img
-            src="/api/placeholder/200/200"
+            src="https://media.licdn.com/dms/image/v2/D4E03AQFUFAKIB-Xafw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715627794210?e=1750896000&v=beta&t=eMYavDeEJFWql6lVYOny7wDSxJ-4e9A6-TDiAItJYRQ"
             alt="Harsha Podichenapally"
             className="profile-image"
           />
