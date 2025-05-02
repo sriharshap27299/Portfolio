@@ -38,7 +38,7 @@ function Home({ scrolled }) {
           />
           <h1 className="profile-name">Harsha Podichenapally</h1>
           <p className="profile-title">
-            Full Stack Developer | Expert in Java, .NET, and Cloud Technologies
+            Senior Software Engineer | New York State ITS | Ex-Amazon
           </p>
         </div>
       </section>

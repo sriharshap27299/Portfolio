@@ -8,23 +8,23 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Event Management Platform",
-      technologies: ["NodeJS", "ReactJS", "Cypress", "Video Calling API"],
-      description: "Built an online event management platform website that later integrated video calling features during the pandemic to enable virtual events. Generated $500 in ARR.",
+      title: "Image to Text Using Pyhton",
+      technologies: ["Optical Character Recognition (OCR)" , "Python (Programming Language)", "Computer Vision" , "Image Processing" , "Machine Learning"],
+      description: "This is a project focused on image-to-text conversion (also known as Optical Character Recognition or OCR).The core functionality would involve taking images containing text as input and outputting the recognized text in a digital, editable format. This is a common application in document digitization, data extraction from scanned materials, and accessibility tools.",
       achievements: [
+        "Successful throughput from image to text",
         "Decreased bugs by 40% through writing extensive end-to-end tests",
-        "Integrated video calling capabilities to support virtual events",
         "Implemented email and SMS marketing microservices"
       ],
       color: "#4F46E5" // Indigo - matching Experience page gradient
     },
     {
       id: 2,
-      title: "Security Enhancement System",
-      technologies: ["Linux", "DES", "RC4", "Triple DES"],
-      description: "Developed a comprehensive security system that resolved vulnerabilities in Linux servers and secured all incoming PII and PCI data through encryption.",
+      title: "Water Monitoring Dashboard",
+      technologies: ["Data Analysis", "Pyhton (Programming Language)", "Machine Learning", "Data Visualization"], 
+      description: "This is focused on water quality analysis and monitoring, likely involving data collection, processing, and visualization related to water quality metrics. The project likely implements systems or models to analyze water quality parameters, possibly for environmental monitoring, public health considerations, or research purposes.",
       achievements: [
-        "Analyzed and improved security in Linux servers",
+        "Analyzed and improved code feasibility and optimized memory",
         "Implemented encryption frameworks for sensitive data",
         "Improved overall work output through security optimizations"
       ],
